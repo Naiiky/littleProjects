@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="Freshly restaurant" name="description" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Slick JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      type="text/javascript"
+    ></script>
+
+    <title>Freshly Restaurant</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Barriecito&family=Cardo:ital,wght@0,400;0,700;1,400&family=Courgette&family=Fjalla+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/dac23ff3b6.js"
+    ></script>
+
+    <!-- ---------- ---------- Favicon  ---------- ---------- -->
+
+    <link
+      href="instructions/ressources/images/favicon.png"
+      rel="icon"
+      type="image/vnd.icon"
+    />
+
+    <!-- ---------- ---------- CSS  ---------- ---------- -->
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+
+    <!-- ---------- ---------- Responsive  ---------- ---------- -->
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <div class="head_nav">
+      <!-- ---------- ---------- ENTETE  ---------- ---------- -->
+
+      <header class="header">
+        <img alt="" src="instructions/ressources/images/logo.png" />
+        <h1>
+          <i class="fa-solid fa-star"></i> FRESHLY RESTAURANT
+          <i class="fa-solid fa-star"></i>
+        </h1>
+      </header>
+
+      <!-- ---------- ---------- NAVBAR  ---------- ---------- -->
+
+      <nav>
+        <ul>
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="menu.html">Menus</a>
+          <a href="#">Contact</a>
+        </ul>
+      </nav>
+    </div>
+    <!-- ---------- ----------  ---------- ---------- -->
+
+    <!-- ---------- ----------  ---------- ---------- -->
+
+    <main class="container">
+      <!-- ---------- ---------- Contact us ---------- ---------- -->
+      <section class="contact_us">
+        <h2>
+          <i class="fa-solid fa-star"></i> Contact us
+          <i class="fa-solid fa-star"></i>
+        </h2>
+
+        <p>If your want to make a reservation, please complete this form.</p>
+
+        <p>Filds with <i class="fa-solid fa-star"></i> are required.</p>
+      </section>
+
+      <section class="form_section">
+        <!-- ---------- ---------- Formulaire avec deux colonnes ---------- ---------- -->
+        <article>
+          <form action="#" method="post">
+            <div class="form_container">
+              <!-- Colonne 1 -->
+              <div>
+                <h3 class="form_title">Reservation</h3>
+                <label for="date"><i class="fa-solid fa-star"></i> Date</label>
+                <input type="text" id="time" name="time" required />
+
+                <label for="time"><i class="fa-solid fa-star"></i> Time</label>
+                <input type="text" id="time" name="time" required />
+
+                <label for="guest-number"
+                  ><i class="fa-solid fa-star"></i> Number of guests</label
+                >
+                <input
+                  type="number"
+                  id="guest-number"
+                  name="guest-number"
+                  required
+                />
+              </div>
+              <!-- Colonne 2 -->
+              <div>
+                <h3 class="form_title">Details</h3>
+                <label for="telephone"
+                  ><i class="fa-solid fa-star"></i> Name</label
+                >
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email </label>
+                <input type="text" id="email" name="email" required />
+
+                <label for="telephone"
+                  ><i class="fa-solid fa-star"></i> Telephone</label
+                >
+                <input type="number" id="telephone" name="telephone" required />
+              </div>
+            </div>
+            <!-- Section Etc -->
+            <div>
+              <h3 class="form_title">Further Request</h3>
+              <label for="message"></label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                style="width: 100%"
+              ></textarea>
+            </div>
+            <div class="button_container">
+              <button class="submit_button" type="submit">Reservation</button>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <!-- ---------- ---------- Footer---------- ---------- -->
+
+    <footer class="footer">
+      <!-- ---------- ---------- Opening hours ---------- ---------- -->
+
+      <section class="opening_hours">
+        <h3>Opening Hours</h3>
+        <ul>
+          <p>Monday : Closed</p>
+          <p>Tue-Wed : 9am - 10pm</p>
+          <p>Thu-Fri : 9am - 10pm</p>
+          <p>Sat-Sun : 5pm - 10pm</p>
+        </ul>
+      </section>
+
+      <!-- ---------- ---------- Contact ---------- ---------- -->
+
+      <section class="contact">
+        <h3>Contact</h3>
+        <ul>
+          <p>13 Christopher Street</p>
+          <p>New York,</p>
+          <p>NY 10014-3543</p>
+          <p>+01 2000 800 9999</p>
+        </ul>
+      </section>
+
+      <!-- ---------- ----------Social Network ---------- ---------- -->
+
+      <section class="social_network">
+        <h3>Social Networks</h3>
+        <p></p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </section>
+    </footer>
+  </body>
+</html>

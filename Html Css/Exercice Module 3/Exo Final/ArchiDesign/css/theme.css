@@ -1,0 +1,94 @@
+/* Le code de vos exercices */
+
+/* *****************************************************************
+Section Head
+***************************************************************** */
+
+.head {
+  background-image: url("../instructions/images/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.head h1 {
+  padding: 1rem 1.5rem;
+  background-color: #cb8606;
+}
+.head p {
+  padding: 1rem 1.5rem;
+  margin: 1rem -10rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #00748d;
+  background-color: #fff;
+}
+
+.container h2 {
+  text-align: center;
+}
+section {
+  margin-bottom: 50px;
+}
+/* *****************************************************************
+Nos prestation
+***************************************************************** */
+
+.prestations {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2rem;
+  margin: 0;
+}
+.prestations p {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.prestations i {
+  display: block;
+  padding: 2rem;
+  color: #ffffff;
+  background-color: #cb8606;
+  font-size: 3rem;
+}
+.prestations div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: start;
+  margin: 1rem -4rem;
+  padding: 0px 5rem;
+}
+button {
+  color: white;
+  background-color: #00748d;
+  border: none;
+  padding: 1rem 4rem;
+}
+
+/* *****************************************************************
+Nos prestataire
+***************************************************************** */
+
+.prestataires {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: #fff;
+}
+.prestataires img {
+  border: 2px solid #00748d;
+  margin: 50px 0px;
+}
+
+/* *****************************************************************
+footer
+***************************************************************** */

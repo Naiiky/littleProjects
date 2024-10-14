@@ -1,0 +1,57 @@
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+  font-family: "cardo-Regular", sans-serif;
+  line-height: 1.5;
+  margin: auto;
+  width: 420px;
+}
+
+/* Le titre principal de la page */
+h1 {
+  font-size: 4em;
+  line-height: 2;
+  font-family: "Special Elite", sans-serif;
+}
+
+/* Le titre de second niveau/section */
+h2 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-family: "Special Elite", sans-serif;
+}
+
+/* Le titre de troisième niveau */
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  font-family: "Special Elite", sans-serif;
+}
+
+/* Les liens */
+a {
+  text-decoration: none; /* Permet de retirer la décoration du texte (soulignement des liens) par défault la valeur est underline; */
+  color: #dd5730;
+}
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'en-tête de la page */
+
+.parent {
+  border: 1px dashed #dd5735; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}
+.header {
+  border-bottom: 2px solid black;
+}
+.footer {
+  border-top: 2px solid black;
+}
+.footer h2 {
+  text-align: center;
+}

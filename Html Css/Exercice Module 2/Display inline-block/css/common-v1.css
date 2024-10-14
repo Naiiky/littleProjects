@@ -1,0 +1,54 @@
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+  font-family: sans-serif;
+  color: #555;
+  background-color: #eee;
+}
+
+/* Le titre principal de la page */
+h1 {
+  font-size: 2.5em;
+  color: #dd5730;
+}
+
+/* Le titre de second niveau/section */
+h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Le titre de troisième niveau */
+h3 {
+  font-size: 1.5em;
+}
+
+/* Les liens */
+a {
+  text-decoration: none; /* Permet de retirer la décoration du texte (soulignement des liens) par défault la valeur est underline; */
+  color: #dd5730;
+}
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'en-tête de la page */
+.header {
+  text-align: center;
+  background-color: #ddd;
+  border: 1px solid #555; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}
+
+.parent {
+  border: 2px dashed #dd5735; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}
+
+.footer {
+  text-align: center;
+  background-color: #ddd;
+  border: 1px solid #555; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}

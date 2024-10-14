@@ -1,0 +1,23 @@
+/* Le code CSS de l'exercice */
+
+/* Changement de la polices pour les titres */
+
+h1 {
+  font-family: "Barriecito", sans-serif;
+}
+h2 {
+  font-family: "Barriecito", sans-serif;
+}
+h3 {
+  font-family: "Barriecito", sans-serif;
+}
+
+/* Changement police via font-face */
+
+@font-face {
+  font-family: "Muli";
+  src: url(../instructions/ressources/Muli/) format("truetype");
+}
+p {
+  font-family: "Muli", sans-serif;
+}

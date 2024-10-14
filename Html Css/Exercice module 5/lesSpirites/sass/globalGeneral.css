@@ -1,0 +1,66 @@
+#art1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em 0;
+}
+
+#art1 #flagBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#art1 #flagBox img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 15px;
+}
+
+@-webkit-keyframes dragon-animation {
+  from {
+    background-position: 290px 0;
+  }
+  to {
+    background-position: -500px 0;
+    /* -128px * nombre de frames */
+  }
+}
+
+@keyframes dragon-animation {
+  from {
+    background-position: 290px 0;
+  }
+  to {
+    background-position: -500px 0;
+    /* -128px * nombre de frames */
+  }
+}
+
+.sprite-dragon {
+  width: 100%;
+  /* largeur d'une frame */
+  height: 200px;
+  /* hauteur d'une frame */
+  background-image: url("../cours/ressources/dragon.png");
+  /* chemin vers votre image */
+  background-repeat: no-repeat;
+  background-position: 290px 0;
+}
+
+.sprite-dragon:hover {
+  -webkit-animation: dragon-animation 1s steps(10) infinite;
+          animation: dragon-animation 1s steps(10) infinite;
+}
+
+.sprite-dragon:hover {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+/*# sourceMappingURL=globalGeneral.css.map */

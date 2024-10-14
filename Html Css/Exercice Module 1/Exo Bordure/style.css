@@ -1,0 +1,34 @@
+.purpel{
+    border:solid;
+    border-color:#800080;
+}
+.redDot{
+    border:dotted;
+    border-color:red;
+}
+.greenDash{
+    border:dashed;
+    border-color:green;
+}
+.pinkDouble{
+    border:double;
+    border-color:pink;
+}
+.borderLeft{
+    border-left:solid;
+    border-color:orange;
+}
+.borderRadius{
+    border:solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color:#FF8C00;
+    
+}
+.borderRadiusImg{
+    border-radius:50%;
+    width: 450px;
+    height: 450px;
+}

@@ -1,0 +1,81 @@
+/* Le code CSS de l'exercices */
+
+/* mise en forme de notre bloc container 2  */
+div {
+  padding: 2em;
+  background-color: teal;
+  width: 40em;
+  height: 20em;
+  color: #fff;
+}
+body {
+  background-color: rgb(222, 222, 222);
+}
+.container {
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+  width: 1200px;
+}
+pre {
+  font-weight: bold;
+}
+
+/* mise en backgroud chaque image  */
+
+.olive {
+  background-image: url("../instructions/ressources/large.jpg");
+}
+.small {
+  background-image: url("../instructions/ressources/small.jpg");
+}
+
+/* chaque essaie  */
+.repeat {
+  background-repeat: repeat;
+}
+.no-repeat {
+  background-repeat: no-repeat;
+}
+.repeat-x {
+  background-repeat: repeat-x;
+}
+.repeat-y {
+  background-repeat: repeat-y;
+}
+.contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.size5 {
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.size {
+  background-size: 80% 40%;
+  background-repeat: no-repeat;
+}
+.center {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.center {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.bottom {
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.position {
+  background-position: 80% 40%;
+  background-repeat: no-repeat;
+}

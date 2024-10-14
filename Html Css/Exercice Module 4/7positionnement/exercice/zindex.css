@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap");
+
+main {
+  font-family: "Sanchez", serif;
+}
+
+section {
+  width: 300px;
+  font-size: 14px;
+}
+
+.gros {
+  font-size: 36px;
+}

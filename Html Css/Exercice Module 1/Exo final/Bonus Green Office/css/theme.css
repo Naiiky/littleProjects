@@ -1,0 +1,60 @@
+/* Le code CSS de l'exercice */
+
+/****************
+
+mise en place nav bar 
+
+*****************/
+
+/* ajustement image de la navbar */
+nav img {
+  float: left;
+  padding: 20px;
+}
+/* mise en forme de l emplacement de notre liste et mise en place */
+nav ul {
+  list-style-type: none;
+  padding: 50px;
+  margin: 0px;
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+  text-decoration: 1px solid black;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+/* deplacement photos  */
+
+main img {
+  float: left;
+  margin: 10px;
+}
+
+/* mise en forme article */
+
+article {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* mise en forme button */
+
+button {
+  font-family: verdana;
+  background-color: #b8cb21;
+  border: none;
+  padding: 15px;
+  float: right;
+}
+/* mise en forme logo*/
+
+.logo {
+  width: auto;
+  height: 60px;
+}

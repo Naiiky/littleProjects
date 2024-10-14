@@ -1,0 +1,33 @@
+:root {
+  --text-color: #444;
+  --orange: #dd5735;
+  --title-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  margin: 2em 4em;
+}
+
+h2 {
+  color: var(--text-color);
+  font-size: var(--title-size);
+}
+
+button {
+  background-color: var(--orange);
+  color: white;
+  border: none;
+  padding: 0.9em 2em;
+  cursor: pointer;
+}
+
+div > * {
+  margin-bottom: 1em;
+}

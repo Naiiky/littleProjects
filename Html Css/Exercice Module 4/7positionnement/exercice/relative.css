@@ -1,0 +1,38 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* .overlay is the original state */
+.overlay {
+  display: none;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.606);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container:hover .overlay {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

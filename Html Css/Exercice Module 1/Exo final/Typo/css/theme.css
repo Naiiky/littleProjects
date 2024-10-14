@@ -1,0 +1,53 @@
+/* Le code CSS de l'exercice */
+
+/* changement police */
+@font-face {
+  font-family: "cardo-Regular";
+  src: url(fonts/cardo/cardo-regular.woff) format("woff");
+}
+@font-face {
+  font-family: "cardo-Italic";
+  src: url(fonts/cardo/cardo-italic.woff) format("woff");
+}
+@font-face {
+  font-family: "cardo-Regular";
+  src: url(fonts/cardo/cardo-regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "specialElite";
+  src: url(fonts/specialelite/SpecialElite.woff) format("woff");
+}
+
+/* mise en forme auteur citation / mise en italic citation*/
+.auteur {
+  text-align: center;
+}
+pre {
+  font-family: "cardo-Italic";
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* mise en forme premiere lettre de chaque div P */
+
+main p:first-letter {
+  font-weight: bold;
+  font-family: "Special Elite", sans-serif;
+  float: left;
+  line-height: 1.5;
+  font-size: 38px;
+  margin-right: 12px;
+  margin-left: 6px;
+  margin-top: -10px;
+}
+
+.underline {
+  border-bottom: 1px dashed black;
+  margin-bottom: -1px;
+}
+.italic {
+  font-family: "cardo-Italic";
+  font-style: italic;
+  font-size: 15px;
+}

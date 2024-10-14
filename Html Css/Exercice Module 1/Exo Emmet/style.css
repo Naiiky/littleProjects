@@ -1,0 +1,41 @@
+*{
+    font-family: "Courier New", Courier, monospace;
+    background-color:#EEEEEE;
+}
+
+pre{
+    font-family:Monaco, monospace;
+    font-size:14px;
+    background-color:#fff;
+    color:#000;
+}
+.header{
+    
+    text-align: center;
+    border: solid;
+    border-color:#dd5735;
+    background-color:#dddddd;
+    margin:20px;
+    padding: 20px;
+    border-width: 1px;
+}
+.header h1{
+    color: #dd5735;
+}
+
+.footer p span{
+    color: #dd5735;
+}
+.footer{
+    
+    text-align: center;
+    border: solid;
+    border-color:#555555;
+    background-color:#dddddd;
+    margin:20px;
+    padding: 20px;
+    border-width: 1px;
+}
+.intro h1{
+    color: #dd5735;
+}

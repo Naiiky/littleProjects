@@ -1,0 +1,63 @@
+/* Le code CSS de l'exercices */
+
+body {
+  background-color: #d6d6d6;
+}
+main {
+  width: 1200px;
+  padding: 5em;
+}
+div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+main q {
+  margin-left: 10px;
+}
+
+.un {
+  border-radius: 1em;
+}
+.deux {
+  border-radius: 2em;
+}
+.top {
+  border-top-left-radius: 2em;
+}
+.radius {
+  border-radius: 1em 2em 3em 4em;
+}
+.cercle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/*.couleur {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 50px solid blue;
+  border-top: 50px solid green;
+  border-left: 50px solid red;
+  border-right: 50px solid yellow;
+}*/
+.couleur {
+  width: 200px;
+  height: 200px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  background-image: linear-gradient(to bottom left, #ff00d7 50%, #d16bff 0%),
+    linear-gradient(to bottom right, #ff00d7, #ff00d7 50%, #ff8bf6 50%, #ff8bf6),
+    linear-gradient(to top right, purple, purple 50%, #ff8bf6 50%, #ff8bf6),
+    linear-gradient(to bottom right, #d16bff, #d16bff 50%, purple 50%, purple);
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}

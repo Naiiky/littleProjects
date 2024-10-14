@@ -1,0 +1,40 @@
+/* Le code CSS de l'exercices */
+
+/* mise en forme page*/
+
+body {
+  background-color: #ececec;
+}
+main {
+  background-color: white;
+  width: 1200px;
+  padding: 20px;
+}
+
+/* default */
+.default {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* Déja visité */
+
+a:visited.default {
+  background-color: grey;
+  text-decoration: underline;
+  color: white;
+  padding: 10px;
+}
+
+a:hover.default {
+  background-color: red;
+}
+
+a:active.default {
+  background-color: blue;
+}
+
+a:focus-visible.default {
+  background-color: purple;
+}

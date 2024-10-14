@@ -1,0 +1,67 @@
+/* Le code CSS de l'exercice */
+
+section {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+.parent1 {
+  margin: 10px;
+  padding: 1em;
+  border: 2px dashed #dd5735;
+  display: inline-block;
+}
+
+.card1 {
+  border: 1px solid #444;
+  padding: 1em;
+  width: 50%;
+}
+
+.parent2 {
+  margin: 10px;
+  padding: 1em;
+  border: 2px dashed #dd5735;
+  display: flex;
+}
+
+.card2 {
+  border: 1px solid #444;
+  padding: 1em;
+}
+
+.parent3 {
+  margin: 10px;
+  padding: 1em;
+  border: 2px dashed #dd5735;
+  display: flex;
+}
+
+.card3 {
+  border: 1px solid #444;
+  padding: 1em;
+}
+.parent4 {
+  margin: 10px;
+  padding: 1em;
+  border: 2px dashed #dd5735;
+  display: flex;
+}
+
+.card4 {
+  border: 1px solid #444;
+  padding: 1em;
+}
+
+.parent5 {
+  margin: 10px;
+  padding: 1em;
+  border: 2px dashed #dd5735;
+  display: flex;
+}
+
+.card5 {
+  border: 1px solid #444;
+  padding: 1em;
+}

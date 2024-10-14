@@ -1,0 +1,523 @@
+/* *****************************************************************
+
+Import des polices de caractères
+
+***************************************************************** */
+
+/* ---------- ---------- Open Sans ---------- ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Barriecito&family=Cardo:ital,wght@0,400;0,700;1,400&family=Courgette&family=Fjalla+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Special+Elite&display=swap");
+
+/* ---------- ---------- Raleway---------- ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Barriecito&family=Cardo:ital,wght@0,400;0,700;1,400&family=Courgette&family=Fjalla+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Special+Elite&display=swap");
+
+/* *****************************************************************
+
+General
+
+***************************************************************** */
+
+/* ---------- ---------- Box-Sizing ---------- ---------- */
+* {
+  box-sizing: border-box; /* On spécifie que la largeur (width) de chaque boîte comprend le padding et la bordure (par défaut, c'est seulement la largeur du contenu) */
+}
+
+/* ---------- ---------- Body ---------- ---------- */
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ---------- ---------- titre ---------- ---------- */
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+img {
+  width: 100%;
+}
+
+/* *****************************************************************
+
+Header
+
+***************************************************************** */
+
+/* ---------- ---------- Barre d'option ---------- ---------- */
+
+.option_bar {
+  background-color: #e2f7ff;
+  text-align: center;
+}
+
+.option_bar h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.option_bar button {
+  background-color: #e2f7ff;
+  border: none;
+  color: #0c6588;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ---------- ---------- Header ---------- ---------- */
+
+.header {
+  background: #0c6588 url("../instructions/FRONT/images/header.jpg") no-repeat
+    center center/cover;
+  background-size: cover;
+  color: #e2f7ff;
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.header img {
+  width: 25%;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.header h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- ---------- Div option ---------- ---------- */
+.container {
+  padding: 10px;
+}
+
+.header_options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.header_options p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_options p a {
+  text-decoration: none;
+  color: #e2f7ff;
+  padding: 0px 20px;
+}
+
+.header_options p i {
+  font-size: 30px;
+}
+
+/* ---------- ---------- nav bar ---------- ---------- */
+
+.main-nav {
+  text-align: center;
+  background-color: #e2f7ff;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Style pour la navigation principale */
+.main-nav li {
+  position: relative;
+  padding: 15px;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #0c6588;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.main-nav li:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+/* Affiche les sous-menus lors du survol de la rubrique principale */
+.main-nav li:hover > ul {
+  display: block; /* Assure que le ul est affiché en bloc */
+}
+
+/* Style pour les sous-menus */
+.main-nav li > ul {
+  display: none; /* Initialement caché, devient visible au survol */
+  background-color: white;
+  padding: 10px;
+  width: 100%; /* Assure que le ul prend toute la largeur */
+}
+
+.main-nav li > ul > li {
+  display: block; /* Chaque li est affiché en bloc pour suivre verticalement */
+  width: 100%;
+}
+
+.main-nav li > ul > li h2,
+.main-nav li > ul > li a {
+  display: block; /* Assure que les titres et les liens sont en bloc */
+  width: 100%;
+  color: #333;
+  text-decoration: none;
+  padding: 5px 0; /* Ajoute un peu d'espacement vertical */
+}
+
+.main-nav li > ul > li h2 {
+  font-size: 16px; /* Taille de police pour les titres de sous-menu */
+  margin-bottom: 5px; /* Espacement après les titres */
+}
+
+.main-nav ul li ul li a {
+  color: #0c6588;
+}
+.main-nav ul li a i {
+  font-size: 20px;
+}
+
+/* ---------- ---------- navigation ---------- ---------- */
+
+.navigation a {
+  display: block;
+}
+
+/* ---------- ---------- Article présentation ---------- ---------- */
+
+/* ---------- ---------- title ---------- ---------- */
+
+.title {
+  display: flex;
+  align-items: center;
+}
+.title::after {
+  content: "";
+  height: 24px;
+  flex: 1;
+  color: gray;
+  margin-left: 1em;
+  width: 150px;
+  background-image: radial-gradient(gray 3px, transparent 4px);
+  background-size: 24px 24px;
+}
+/* ---------- ---------- tag  ---------- ---------- */
+
+/* ---------- ---------- Carouselle  ---------- ---------- */
+
+#slippry-demo {
+  margin: auto;
+  width: 80%;
+}
+
+#slippry-demo ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#slippry-demo li {
+  margin: 5px;
+  list-style: none;
+}
+
+#slippry-demo img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#slippry-demo li img {
+  max-height: 100px; /* Taille des miniatures */
+}
+
+#main-image img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  max-height: 500px; /* Taille de l'image principale */
+}
+
+#slippry-demo p {
+  text-align: center;
+}
+
+/* ---------- ---------- description presentation  ---------- ---------- */
+
+.description_presentation button {
+  border: none;
+  background-color: #0c6588;
+  color: white;
+  padding: 10px;
+}
+.description_presentation a {
+  text-decoration: none;
+  color: #0c6588;
+}
+.bt {
+  margin: 0;
+}
+
+/* ---------- ---------- Descriptif ---------- ---------- */
+
+/* ---------- ---------- article 1  ---------- ---------- */
+.description .title {
+  padding: 50px 5px;
+}
+
+.div-description div {
+  padding: 50px;
+  border: 1px solid #eee;
+}
+
+.perf {
+  margin-bottom: 70px;
+}
+
+/* ---------- ---------- article 2 ---------- ---------- */
+
+.design-contenu {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.design {
+  margin-bottom: 70px;
+}
+
+/* ---------- ---------- article 3 ---------- ---------- */
+
+.carac-content {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.carac {
+  margin-bottom: 70px;
+}
+
+/* ---------- ---------- Caracteristique ---------- ---------- */
+
+.caracteristique article {
+  padding: 30px;
+}
+
+/* ---------- ---------- Tableau ---------- ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ccc;
+}
+
+td {
+  padding: 8px;
+  text-align: start;
+  border-bottom: 1px solid #ddd;
+}
+
+td:nth-child(2) {
+  /* Sélectionne la deuxième cellule de chaque ligne, qui est la colonne d'espace */
+  width: 50px; /* Ajustez la largeur selon vos besoins */
+}
+
+/* ---------- ---------- Footer ---------- ---------- */
+
+.footer {
+  background-image: url("../instructions/FRONT/images/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+.footer section {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.footer section img {
+  width: 80%;
+  border-radius: 5px;
+}
+.footer section i {
+  font-size: 20px;
+  padding: 10px;
+  color: whitesmoke;
+}
+.footer section a {
+  color: whitesmoke;
+  display: block;
+}
+
+/* ---------- ---------- Responsive ---------- ---------- */
+
+@media (min-width: 480px) {
+  /* ---------- ---------- bar d option ---------- ---------- */
+
+  .option_bar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  /* ---------- ---------- header ---------- ---------- */
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header div {
+    padding: 20px;
+  }
+  /* ---------- ---------- nav bar responsive ---------- ---------- */
+  .ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .icone {
+    display: none;
+  }
+  .li:hover {
+    position: absolute; /* Change de fixed à absolute pour permettre le défilement */
+    width: 100vw; /* Largeur à 100% de la largeur de la fenêtre */
+    min-height: 100vh; /* Hauteur minimale à 100% de la hauteur de la fenêtre */
+    top: 0; /* Positionné en haut de la page */
+    left: 0; /* Positionné à gauche de la page */
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    z-index: 1000; /* S'assure que le li est au-dessus des autres contenus */
+    flex-direction: column; /* Organise les éléments à l'intérieur en colonne */
+    justify-content: center; /* Centre les éléments à l'intérieur du li */
+    overflow-y: auto; /* Permet le défilement vertical à l'intérieur du li */
+  }
+}
+
+@media (min-width: 980px) {
+  /* ---------- ---------- nav bar ---------- ---------- */
+  .main-nav ul {
+    display: flex;
+    flex-wrap: nowrap; /* Empêche le retour à la ligne */
+    width: 100%; /* Prend toute la largeur de la page */
+    justify-content: space-between; /* Espacement uniforme entre les éléments */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .main-nav li {
+    display: flex;
+    align-items: center; /* Centre les éléments verticalement */
+    position: relative; /* Nécessaire pour positionner les sous-menus */
+    padding: 15px;
+  }
+
+  .main-nav li a {
+    text-decoration: none;
+    color: #0c6588;
+    display: flex;
+    align-items: center; /* Alignement vertical des liens et des icônes */
+    padding: 10px 20px; /* Espacement autour des liens */
+  }
+
+  /* ---------- ---------- section article  ---------- ---------- */
+  .navigation a {
+    display: inline;
+    margin-right: 40px;
+  }
+
+  .presentation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .presentation h2 {
+    width: 100%;
+  }
+  .presentation section {
+    width: 50%;
+  }
+  .presentation article {
+    width: 50%;
+  }
+
+  /* ---------- ---------- descriptif  ---------- ---------- */
+
+  .div-description {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .div-description div {
+    width: 50%;
+  }
+  .div-description p {
+    width: 50%;
+  }
+
+  /* ---------- ---------- design  ---------- ---------- */
+  .div-design {
+    display: flex;
+  }
+  .div-design div {
+    width: 50%;
+    padding: 10px;
+  }
+
+  /* ---------- ---------- carac  ---------- ---------- */
+  .div-carac {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .div-carac div {
+    width: 50%;
+    padding: 10px;
+  }
+
+  /* ---------- ---------- footer  ---------- ---------- */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer section {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}

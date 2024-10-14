@@ -1,0 +1,62 @@
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+  font-family: verdana;
+  color: #2c4726;
+  font-size: 14px;
+  background-image: url("/instructions/img/fond.png");
+  margin: auto;
+  width: 780px;
+  line-height: 1.5;
+}
+div {
+  background: white;
+}
+nav {
+  font-size: 20px;
+  height: 200px;
+  width: 750px;
+}
+/* Le titre principal de la page */
+h1 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+/* Le titre de second niveau/section */
+h2 {
+  font-size: 21px;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Le titre de troisième niveau */
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Les liens */
+a {
+  text-decoration: none; /* Permet de retirer la décoration du texte (soulignement des liens) par défault la valeur est underline; */
+}
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'en-tête de la page */
+.header {
+  text-align: center;
+  background-color: #b8cb21;
+}
+
+.parent {
+  border: 1px dashed #dd5735; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}
+
+.footer {
+  text-align: center;
+}

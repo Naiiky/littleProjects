@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Le template des démos du module 2 (sémantique + feuille de style commune en version 2)"
+    />
+    <title>Template module 2</title>
+    <link rel="stylesheet" href="css/common-v3.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link
+      rel="icon"
+      type="image/vnd.icon"
+      href="instructions/ressources/favicon-32x32.png"
+    />
+
+    <script src="/instructions/ressources/jquery-3.5.1.js"></script>
+    <script src="/instructions/ressources/jquery-3.5.1.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>jQuery</h1>
+      <p>Utilisation de jQuery</p>
+    </header>
+
+    <main class="container">
+      <!-- ---------- ----------  ---------- ---------- -->
+
+      <section>
+        <nav>
+          <button id="changeColorButton">Css</button>
+          <button id="changeTextButton">Html</button>
+          <button id="deleteButton">Toggle</button>
+          <button href="">Slide</button>
+        </nav>
+      </section>
+
+      <section>
+        <p class="text" id="first">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex excepturi
+          molestiae, tempore quaerat soluta assumenda atque, pariatur facere
+          iure, ipsum inventore? Harum odio minima debitis impedit at excepturi
+          assumenda illo doloremque ipsam consequuntur eos fuga sequi, quia et
+          eveniet eligendi.
+        </p>
+        <p class="text" id="second">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex excepturi
+          molestiae, tempore quaerat soluta assumenda atque, pariatur facere
+          iure, ipsum inventore? Harum odio minima debitis impedit at excepturi
+          assumenda illo doloremque ipsam consequuntur eos fuga sequi, quia et
+          eveniet eligendi.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"
+          ><img
+            alt="Propriété de la 3W Academy"
+            src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png"
+        /></a>
+      </p>
+      <p>
+        Ce matériel pédagogique est la propriété de la
+        <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"
+          >3W Academy</a
+        >. Cet exercice a été réalisé par Stephane Pereck.
+      </p>
+    </footer>
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <script>
+      //Mise en place bouton Css
+
+      $(document).ready(function () {
+        $("#changeColorButton").click(function () {
+          $(".text").css("color", "blue");
+        });
+      });
+
+      //Mise en place bouton Html
+
+      $(document).ready(function () {
+        $("#changeTextButton").click(function () {
+          $("#first").text("Hello World !!");
+          $("#second").text("");
+        });
+      });
+
+      //Mise en place bouton Toggle
+
+      $(document).ready(function () {
+        $("#deleteButton").click(function () {
+          $(".text").text("");
+        });
+      });
+
+      //Mise en place bouton slide
+    </script>
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <!-- ---------- SCRIPT ---------- -->
+
+    <!-- ---------- SCRIPT ---------- -->
+  </body>
+</html>

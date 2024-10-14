@@ -1,0 +1,300 @@
+main h2 {
+  color: #c33;
+}
+
+main article h3 {
+  color: #a32929;
+}
+
+main article .sec-1 {
+  border: 1px solid #7a1f1f;
+  padding: 1em;
+}
+
+main article .sec-1 h4 {
+  color: #7a1f1f;
+}
+
+main article .sec-1 p {
+  color: #369;
+}
+
+main #parent1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat 3, 1fr;
+      grid-template-columns: repeat 3, 1fr;
+  -ms-grid-rows: repeat 1, 100%;
+      grid-template-rows: repeat 1, 100%;
+  gap: 1em;
+  margin: 2em 1em;
+}
+
+main #parent1 #enfant {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.5;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent1 #enfant2 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.66667;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent1 #enfant3 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.5;
+  grid-row: 0.66667;
+}
+
+main #parent1 #enfant4 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.66667;
+  grid-row: 0.66667;
+}
+
+main #parent2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat 4, 1fr;
+      grid-template-columns: repeat 4, 1fr;
+  -ms-grid-rows: repeat 2, 100%;
+      grid-template-rows: repeat 2, 100%;
+  gap: 1em;
+  margin: 2em 1em;
+}
+
+main #parent2 #enfant2-1 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.5;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent2 #enfant2-2 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.66667;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent2 #enfant2-3 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.75;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent2 #enfant2-4 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.5;
+  grid-row: 0.66667;
+}
+
+main #parent2 #enfant2-5 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.66667;
+  grid-row: 0.66667;
+}
+
+main #parent2 #enfant2-6 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.75;
+  grid-row: 0.66667;
+}
+
+main #parent3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat 2, 1fr;
+      grid-template-columns: repeat 2, 1fr;
+  -ms-grid-rows: repeat 2, 100%;
+      grid-template-rows: repeat 2, 100%;
+  gap: 1em;
+  margin: 2em 1em;
+}
+
+main #parent3 #enfant3-1 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.5;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent3 #enfant3-2 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.66667;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent3 #enfant3-3 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.75;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent3 #enfant3-4 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.8;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent3 #enfant3-5 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.83333;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat 2, 1fr;
+      grid-template-columns: repeat 2, 1fr;
+  -ms-grid-rows: repeat 2, 100%;
+      grid-template-rows: repeat 2, 100%;
+  gap: 1em;
+  margin: 2em 1em;
+}
+
+main #parent4 #enfant4-1 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.5;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent4 #enfant4-2 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.66667;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent4 #enfant4-3 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.75;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent4 #enfant4-4 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.8;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+main #parent4 #enfant4-5 {
+  background-color: #fff;
+  color: #369;
+  padding: 1em;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  grid-column: 0.83333;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+/*# sourceMappingURL=globalGeneral.css.map */

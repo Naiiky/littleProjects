@@ -1,0 +1,180 @@
+/* Le code CSS de l'exercices */
+
+ul {
+  list-style-type: none; /* permet d'enlever les décorations de notre liste*/
+  margin: 0;
+  padding: 0;
+}
+
+.test-default {
+  display: flex;
+}
+
+.test-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.test-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-columnR {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.test-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 25%;
+}
+
+.test-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.test-center {
+  display: flex;
+  align-items: center;
+}
+.test-center li:nth-child(odd) {
+  height: 150px;
+  align-content: center;
+}
+
+.test-start {
+  display: flex;
+  align-items: flex-start;
+}
+.test-start li:nth-child(odd) {
+  height: 150px;
+  align-content: center;
+}
+
+.test-end {
+  display: flex;
+  align-items: flex-end;
+}
+.test-end li:nth-child(odd) {
+  height: 150px;
+  align-content: center;
+}
+
+.test-justifyC {
+  display: flex;
+  justify-content: center;
+}
+
+.test-justifyS {
+  display: flex;
+  justify-content: flex-start;
+}
+.test-justifyE {
+  display: flex;
+  justify-content: flex-end;
+}
+.test-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.test-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.test-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.test-order {
+  display: flex;
+}
+.test-order li:nth-child(1) {
+  order: 4;
+}
+.test-order li:nth-child(2) {
+  order: 2;
+}
+.test-order li:nth-child(3) {
+  order: 6;
+}
+.test-order li:nth-child(4) {
+  order: 1;
+}
+.test-order li:nth-child(5) {
+  order: 3;
+}
+.test-order li:nth-child(6) {
+  order: 5;
+}
+
+.test-grow {
+  display: flex;
+}
+.test-grow li:nth-child(1) {
+  flex-grow: 1;
+}
+.test-grow li:nth-child(2) {
+  flex-grow: 1;
+}
+.test-grow li:nth-child(3) {
+  flex-grow: 3;
+}
+.test-grow li:nth-child(4) {
+  flex-grow: 1;
+}
+.test-grow li:nth-child(5) {
+  flex-grow: 1;
+}
+.test-grow li:nth-child(6) {
+  flex-grow: 1;
+}
+
+.test-shrink {
+  display: flex;
+}
+.test-shrink li {
+  flex-grow: 1;
+}
+.test-shrink li:nth-child(1) {
+  flex-shrink: 1;
+}
+.test-shrink li:nth-child(2) {
+  flex-shrink: 1;
+}
+.test-shrink li:nth-child(3) {
+  flex-shrink: 3;
+}
+.test-shrink li:nth-child(4) {
+  flex-shrink: 1;
+}
+.test-shrink li:nth-child(5) {
+  flex-shrink: 1;
+}
+.test-shrink li:nth-child(6) {
+  flex-shrink: 1;
+}
+
+.test-flexGrow {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+.test-flexGrow li:nth-child(1) {
+  margin: 10px;
+  width: 25%;
+}
+.test-flexGrow li:nth-child(2) {
+  margin: 10px;
+  width: 50%;
+}
+.test-flexGrow li:nth-child(3) {
+  margin: 10px;
+  width: 25%;
+}

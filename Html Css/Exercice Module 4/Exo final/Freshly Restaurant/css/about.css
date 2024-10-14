@@ -1,0 +1,155 @@
+/* *****************************************************************
+About Us
+***************************************************************** */
+
+/* ---------- ---------- About us / video ---------- ---------- */
+
+.about_us {
+  padding: 15px;
+}
+
+.about_us article {
+  width: 90%;
+  margin: auto;
+}
+
+.about_us video {
+  width: 100%;
+}
+
+/* ---------- ---------- Private dining ---------- ---------- */
+
+.private_dining {
+  padding: 15px;
+}
+
+.private_dining article {
+  background-color: #ebe3db;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.private_dining article figure img {
+  box-shadow: 3px 3px 8px rgba(76, 67, 67, 0.5);
+}
+
+/* *****************************************************************
+
+RESPONSIVE
+
+***************************************************************** */
+
+/* *****************************************************************
+mobile
+***************************************************************** */
+
+@media (max-width: 779px) {
+  nav ul {
+    background-color: #ebe2da;
+  }
+}
+
+/* *****************************************************************
+Responsive tablette 
+***************************************************************** */
+
+@media (min-width: 780px) {
+  /* ---------- ---------- header / nav --------- ---------- */
+  nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #ebe2da;
+  }
+
+  nav ul a {
+    margin: 0;
+    border: none;
+    margin: 0px 50px;
+  }
+
+  nav ul a:hover {
+    background-color: #4c4343;
+    color: white;
+    border: none;
+  }
+
+  /* ---------- ---------- private_dining --------- ---------- */
+  .private_dining article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    justify-content: space-evenly;
+  }
+  .private_dining article figure {
+    width: 45%;
+    margin: 20px;
+  }
+
+  /* ---------- ---------- Footer --------- ---------- */
+  .footer {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .footer section {
+    padding: 20px;
+  }
+}
+
+/* *****************************************************************
+Responsive desktop 
+***************************************************************** */
+
+@media (min-width: 1100px) {
+  /* ---------- ---------- header / nav --------- ---------- */
+  body {
+    position: relative;
+  }
+
+  .head_nav {
+    display: flex;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .header img {
+    width: 20%;
+    padding: 30px;
+  }
+
+  .header h1 {
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+  }
+
+  nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    display: flex;
+    float: right;
+  }
+
+  nav ul {
+    background-color: #ebe2da00;
+  }
+
+  nav ul a {
+    margin: 0;
+    border: none;
+    margin: 0px 20px;
+  }
+
+  nav ul a:hover {
+    background-color: #4c4343;
+    color: white;
+    border: none;
+  }
+}

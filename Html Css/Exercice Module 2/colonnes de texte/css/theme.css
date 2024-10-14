@@ -1,0 +1,38 @@
+/* Le code CSS de l'exercices */
+section {
+  display: flex;
+  margin-bottom: 50px;
+}
+section div {
+  padding: 1em;
+  text-align: justify;
+}
+.vertical-line {
+  border-right: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+li {
+  width: 48%;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(210, 207, 207);
+}
+
+.pixel {
+  display: flex;
+  justify-content: space-around;
+}
+.pixel div {
+  border: 1px #ccc solid;
+  padding: 4em;
+  background-color: #fff;
+}

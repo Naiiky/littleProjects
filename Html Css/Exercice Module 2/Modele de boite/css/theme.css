@@ -1,0 +1,33 @@
+/* Le code CSS de l'exercice */
+#boxs {
+  background-color: #ccc;
+}
+
+/* mise en forme box1  */
+.box1 {
+  margin: 2rem;
+}
+
+/* mise en forme box2  */
+.box2 {
+  padding: 2rem;
+}
+
+/* mise en forme box3  */
+.box3 {
+  padding: 2rem;
+  border: 5px solid red;
+}
+
+/* mise en forme box4  */
+.box4 {
+  padding: 2rem;
+  width: 500px;
+}
+
+/* mise en forme box5 */
+.box5 {
+  padding: 2rem;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}

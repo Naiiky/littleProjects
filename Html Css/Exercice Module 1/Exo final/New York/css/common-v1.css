@@ -1,0 +1,57 @@
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+  color: #444;
+  background-color: #eee;
+}
+
+/* Le titre principal de la page */
+h1 {
+  font-size: 40px;
+  color: #dd5730;
+}
+
+/* Le titre de second niveau/section */
+h2 {
+  font-size: 35px;
+  color: #4f89b9;
+}
+
+/* Le titre de troisième niveau */
+h3 {
+  font-size: 25px;
+  color: #003884;
+}
+
+/* Les liens */
+a {
+  text-decoration: none; /* Permet de retirer la décoration du texte (soulignement des liens) par défault la valeur est underline; */
+  color: #003884;
+}
+em {
+  color: #4f89b9;
+}
+strong {
+  color: #003884;
+}
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'en-tête de la page */
+.header {
+  text-align: center;
+  /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}
+.parent {
+  border: 1px dashed #dd5735; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}
+
+.footer {
+  text-align: center;
+  border-top: 2px solid #003884; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+}

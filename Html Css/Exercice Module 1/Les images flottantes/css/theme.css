@@ -1,0 +1,53 @@
+/* Le code CSS de l'exercice */
+
+/* delimitation et ajustement possition container*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+/* changement de la police */
+main {
+  font-family: "Muli", sans-serif;
+}
+
+/*changement de place de la balise maincoon*/
+.maineCoon {
+  float: left;
+  border: solid black 2px;
+  border-radius: 35%;
+}
+
+/*changement de place de la balise birman*/
+.birman {
+  float: right;
+  border: solid black 2px;
+  border-radius: 35%;
+}
+
+/*mise en forme article 1 */
+.articleOne {
+  display: inline-block;
+  padding: 20px;
+  margin: auto;
+  border: solid orangered 2px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(255, 229, 196);
+}
+.articleOne p {
+  margin-left: 35%;
+}
+/*mise en forme article 1 */
+.articleTwo {
+  display: inline-block;
+  padding: 20px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: solid orangered 2px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(255, 229, 196);
+}
+.articleTwo p {
+  margin-right: 35%;
+}

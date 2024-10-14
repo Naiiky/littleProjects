@@ -1,0 +1,34 @@
+.orange{
+    color:orange;
+}
+.hexa{
+    color:#d23100;
+}
+.shexa{
+    color:#34e;
+}
+.rgb{
+    color:rgb(120,0,120);
+}
+.hsl{
+    color:hsl(315, 73.3%,47%);
+}
+.fond{
+    background-color:black;
+    color:white;
+}
+.fond strong{
+    background-color:red;
+}
+.redo{
+    background-color:red;
+    opacity:0.5;
+}
+.redob{
+    background-color:red;
+    color:black;
+}
+.redno{
+    background-color:rgba(255, 0, 0,);
+    color: rgba(0, 0, 0, 0.5);
+}

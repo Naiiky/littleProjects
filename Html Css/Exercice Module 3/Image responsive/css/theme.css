@@ -1,0 +1,39 @@
+/* Le code CSS de l'exercices */
+
+/* *****************************************************************
+Main
+***************************************************************** */
+
+main {
+  background-image: url("../instructions/ressources/phare.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* *****************************************************************
+Div
+***************************************************************** */
+.image {
+  background-color: #ffffffb9;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article img {
+  width: 100%;
+}
+/* *****************************************************************
+Telephone
+***************************************************************** */
+
+@media (max-width: 780px) {
+  .image {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,67 @@
+//=================================================================================\
+//                                                                                  \
+//Global preset                                                                      |
+//                                                                                  /
+//=================================================================================/
+
+//preset articles
+@mixin artContain($x, $y) {
+  display: $x;
+  flex-direction: $y;
+  margin: 2em 0;
+}
+//preset flags
+@mixin flag {
+  display: flex;
+  img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin: 0 15px;
+  }
+}
+
+//=================================================================================\
+//                                                                                  \
+//Article 1                                                                          |
+//                                                                                  /
+//=================================================================================/
+#art1 {
+  @include artContain(flex, column);
+  #flagBox {
+    @include flag;
+  }
+}
+
+//=================================================================================\
+//                                                                                  \
+//Article 2                                                                          |
+//                                                                                  /
+//=================================================================================/
+
+@keyframes dragon-animation {
+  from {
+    background-position: 290px 0;
+  }
+  to {
+    background-position: -500px 0; /* -128px * nombre de frames */
+  }
+}
+//
+//--------------------------------------------------------------------
+//
+
+.sprite-dragon {
+  width: 100%; /* largeur d'une frame */
+  height: 200px; /* hauteur d'une frame */
+  background-image: url("../cours/ressources/dragon.png"); /* chemin vers votre image */
+  background-repeat: no-repeat;
+  background-position: 290px 0;
+  &:hover {
+    animation: dragon-animation 1s steps(10) infinite;
+  }
+}
+
+.sprite-dragon:hover {
+  animation-play-state: running;
+}

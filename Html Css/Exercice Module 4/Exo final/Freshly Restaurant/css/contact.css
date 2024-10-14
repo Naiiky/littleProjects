@@ -1,0 +1,67 @@
+/* *****************************************************************
+Contact
+***************************************************************** */
+
+/* ---------- ---------- Contact ---------- ---------- */
+.contact_us {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ---------- ---------- Titre des formutaires---------- ---------- */
+.form_title {
+  justify-content: space-between;
+}
+
+/* ---------- ---------- Formulaire ---------- ---------- */
+article {
+  padding: 20px;
+  background-color: #ebe3db;
+}
+.form_section {
+  padding: 20px;
+}
+.form_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_container div {
+  width: 50%;
+}
+
+/* ---------- ---------- Mise en forme label ---------- ---------- */
+.form_container div label {
+  display: block;
+}
+
+/* ---------- ---------- Mise en forme input ---------- ---------- */
+.form_container div input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #4c4343;
+}
+
+/* ---------- ---------- Mise en forme textarea ---------- ---------- */
+.form_container div textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #4c4343;
+}
+
+/* ---------- ---------- Mise en forme button ---------- ---------- */
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.submit_button {
+  background-color: #4c4343;
+  color: #ebe3db;
+  padding: 10px 40px;
+  border-radius: 10px;
+}

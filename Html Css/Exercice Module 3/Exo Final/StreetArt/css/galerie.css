@@ -1,0 +1,191 @@
+/* Le code de vos exercices */
+
+/* *****************************************************************
+Section Head
+***************************************************************** */
+
+.galerie {
+  background-image: url("../instructions/images/banner2.jpg");
+}
+
+/* *****************************************************************
+Galerie photo
+***************************************************************** */
+.galerie_photo {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  column-gap: 10px;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* ---------- ---------- Galerie Row 1 ---------- ---------- */
+
+.box {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: span 2;
+}
+.box1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.box2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.box3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row: span 2;
+}
+
+/* ---------- ---------- Galerie Row 2 ---------- ---------- */
+.box4 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.box5 {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: span 2;
+}
+
+/* ---------- ---------- Galerie Row 3 ---------- ---------- */
+
+.box6 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.box7 {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.box8 {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row: span 2;
+}
+
+/* ---------- ---------- Galerie Row 4 ---------- ---------- */
+
+.box9 {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.box10 {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: span 2;
+}
+.box11 {
+  grid-row-start: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/* ---------- ---------- Galerie Row 5 ---------- ---------- */
+
+.box12 {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: span 2;
+}
+.box13 {
+  grid-row-start: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.box14 {
+  grid-row-start: 5;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row: span 2;
+}
+
+/* ---------- ---------- Galerie Row 6 ---------- ---------- */
+
+.box16 {
+  grid-row-start: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.box17 {
+  grid-row-start: 6;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/* *****************************************************************
+sections commentaires / evenements
+***************************************************************** */
+
+/* ---------- ---------- Section  ---------- ---------- */
+
+.commentaires_evenements {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* ---------- ---------- article  ---------- ---------- */
+
+.commentaires_evenements article {
+  padding: 5px;
+  margin: 10px;
+  align-items: center;
+}
+
+/* ---------- ---------- article  ---------- ---------- */
+
+.commentaires ul {
+  padding: 0;
+}
+.evenements ul {
+  padding-left: 15px;
+}
+/* ---------- ---------- Icone commentaires  ---------- ---------- */
+.icone_commentaires,
+.icone_evenements {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.icone_commentaires i {
+  color: #db0059;
+}
+
+.icone_commentaires ul {
+  font-size: 12px;
+}
+.com i {
+  color: #db0059;
+  font-weight: bolder;
+}
+
+.icone_evenements ul {
+  font-size: 12px;
+}
+
+/* ---------- ---------- Icone evenements  ---------- ---------- */
+
+.icone_evenements i {
+  color: #037d9d;
+}
+.event i {
+  color: #037d9d;
+  font-weight: bolder;
+}

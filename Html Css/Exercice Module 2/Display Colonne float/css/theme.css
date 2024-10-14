@@ -1,0 +1,39 @@
+/* Le code CSS de l'exercice */
+
+section {
+  margin: 10px;
+  padding: 5px;
+}
+
+.div1 {
+  display: flex;
+}
+
+article {
+  border: 1px solid #555;
+  padding: 3em;
+  background-color: white;
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+}
+
+.div1 article {
+  padding: -20px;
+}
+
+.parent1 {
+  display: flex;
+  border: 2px dashed #dd5735; /* Super propriété qui combine dans l'ordre épaisseur, type de bordure et couleur */
+  padding: 1em;
+  margin: -20px;
+}
+
+#red {
+  border-bottom: 3px solid red;
+}
+#purple {
+  border-bottom: 3px solid purple;
+}

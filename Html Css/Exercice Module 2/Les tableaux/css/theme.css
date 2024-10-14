@@ -1,0 +1,57 @@
+/* Le code CSS de l'exercice */
+
+td {
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0%;
+}
+th {
+  border: 1px solid #999;
+  padding: 1em;
+}
+
+th {
+  background-color: white;
+}
+.bold td {
+  font-weight: bold;
+}
+
+.last {
+  text-align: center;
+}
+
+/* TABLEAU */
+
+.regionsTable {
+  width: 100%;
+}
+.regionsTable tr,
+td:nth-child(n + 3) {
+  text-align: end;
+}
+.regionsTable tr,
+td:nth-child(2) {
+  text-align: center;
+}
+.regionsTable tr,
+td:first-child {
+  text-align: start;
+}
+.regionsTable tr:last-child {
+  text-align: end;
+  background-color: white;
+}
+.regionsTable tr:nth-child(even) {
+  /* Cible en Css les cellules de tableau des lignes de position paire  */
+  /* Listes de propriétés Css */
+  background-color: white;
+}
+.regionsTable tr:nth-child(odd) {
+  /* Cible en Css les cellules de tableau des lignes de position impaire */
+  /* Listes de propriétés Css */
+  background-color: #ccc;
+}

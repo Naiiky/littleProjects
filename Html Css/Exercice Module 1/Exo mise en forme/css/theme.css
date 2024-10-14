@@ -1,0 +1,205 @@
+/* Le code CSS de l'exercice */
+
+/************************
+        La taille
+*************************/
+
+/* font-size medium */
+.medium {
+  font-size: medium;
+}
+/* font-size large */
+.large {
+  font-size: large;
+}
+/* font-size pixel */
+.pixel {
+  font-size: 14px;
+}
+/* font-size pt */
+.pt {
+  font-size: 14px;
+}
+/* font-size pourcentage */
+.pourcentage {
+  font-size: 150%;
+}
+/* font-size em */
+.em {
+  font-size: 1.5em;
+}
+/* font-size rem */
+.rem {
+  font-size: 1.5rem;
+}
+
+/************************
+        La graisse
+*************************/
+
+/* font-weight bold */
+.bold {
+  font-weight: bold;
+}
+/* font-weight normal */
+.normal {
+  font-weight: normal;
+}
+/* font-weight chiffre */
+.chiffre {
+  font-weight: 700;
+}
+/* font-weight bolder */
+.bolder {
+  font-weight: bolder;
+}
+/* font-weight lighter */
+.lighter {
+  font-weight: lighter;
+}
+
+/************************
+        Le Style
+*************************/
+
+/* font-style italique */
+.italic {
+  font-style: italic;
+}
+/* font-style normal */
+.normal {
+  font-style: normal;
+}
+
+/************************
+    La hauteur de ligne
+*************************/
+
+/* line-height normal */
+.one {
+  line-height: 1;
+}
+/* line-height normal */
+.oneFive {
+  line-height: 1.5;
+}
+/* line-height four */
+.four {
+  line-height: 4;
+}
+
+/************************
+ Espace entre les lettres
+*************************/
+
+/* letter-spacing spacingEm */
+.letterSpacing {
+  letter-spacing: 0.5em;
+}
+
+/************************
+  Espace entre les mots
+*************************/
+
+/* word-spacing spacingEm */
+.wordSpacing {
+  word-spacing: 2em;
+}
+
+/************************
+    Gestion d'espaces
+*************************/
+
+/* white-space spaceNormal */
+.spaceNormal {
+  white-space: normal;
+}
+/* white-space noWrap */
+.noWrap {
+  white-space: nowrap;
+}
+/* white-space spacePre */
+.spacePre {
+  white-space: pre;
+}
+
+/************************
+ Mise en forme du texte
+*************************/
+
+/* text-align right */
+.right {
+  text-align: right;
+}
+/* text-align left */
+.left {
+  text-align: left;
+}
+/* text-align center */
+.center {
+  text-align: center;
+}
+/* text-align justify */
+.justify {
+  text-align: justify;
+}
+
+/************************
+   Indentation du text
+*************************/
+/* text-indent  */
+.indent {
+  text-indent: 20px;
+}
+
+/************************
+ Transformation du texte
+*************************/
+/* text-transform none */
+.none {
+  text-transform: none;
+}
+/* text-transform capitalize */
+.capitalize {
+  text-transform: capitalize;
+}
+/* text-transform uppercase */
+.uppercase {
+  text-transform: uppercase;
+}
+/* text-transform lowecase */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/************************
+   Decoration du texte
+*************************/
+/* text-transform underline */
+.underline {
+  text-decoration: underline;
+}
+/* text-transform none */
+.underlineNone {
+  text-decoration: none;
+}
+/* text-transform overline */
+.underline {
+  text-decoration: overline;
+}
+/* text-transform underline red */
+.underlineR {
+  text-decoration: underline red;
+}
+/* text-transform underline doubble orange */
+.underlineDO {
+  text-decoration: underline double orange;
+}
+/* text-transform underline dashed green */
+.underlineDG {
+  text-decoration: underline dashed green;
+}
+/* text-transform underline vague teal */
+.underlineWT {
+  text-decoration: underline wavy teal;
+}

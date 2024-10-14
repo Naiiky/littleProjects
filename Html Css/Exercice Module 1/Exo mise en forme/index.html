@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Le template des démos du module 1">
+        <title>Template module 1</title>
+        <link rel="stylesheet" href="css/common-v1.css">
+        <link rel="stylesheet" href="css/theme.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Module 1 - Mise en forme</h1>
+            <p>Découverte de la mise en forme du texte</p>
+        </header>
+        
+        <main>
+            <h2>Mise en forme des caratères</h2>
+            
+            <p>Utilisation des proriétés font-xxx</p>
+            
+            <h3>La taille</h3>
+            <p>La propriété CSS font-size permet de définir la taille utilisée pour le texte.</p>
+            <ul>
+                <li class="medium">On peut utiliser une des valeurs prédéfinies comme font-size: medium mais ce n'est pas très utilisé.</li>
+                <li class="large">On peut utiliser une des valeurs prédéfinies comme font-size: large mais ce n'est pas très utilisé.</li>
+                <li class="pixel">On peut utiliser une valeur absolue avec l'unité px, par exemple font-size: 14px mais ce n'est pas recommandé.</li>
+                <li class="pt">On peut utiliser une valeur absolue avec l'unité pt (point comme dans Word), par exemple font-size: 14pt mais ce n'est pas recommandé.</li>
+                <li class="pourcentage">On peut utiliser une valeur proportionnelle en pourcentage, par exemple font-size: 150% mais ce n'est pas très utilisé.</li>
+                <li class="em">Il est recommandé d'utiliser une valeur proportionnelle en em, par exemple font-size: 1.5em.</li>
+                <li class="rem">Comme alternative, on peut utiliser une valeur proportionnelle en rem (toujours proportionnelle à la taille définie à la racine du document, le ROOT, soit l'élément HTML), par exemple font-size: 1.5rem.</li>
+            </ul>
+            <h3>La graisse</h3>
+            <p>La propriété CSS font-weight permet de définir la graisse utilisée pour le texte.</p>
+            <ul>
+                <li class="bold">On peut mettre du texte en gras avec font-weight: bold.</li>
+                <li class="normal">On peut supprimer le gras existant avec font-weight: normal (ici le texte est dans un élément <strong>).</li>
+                <li class="chiffre">Il est possible de donner un niveau de graisse (compris entre 100 et 900), par exemple font-weight: 700 (équivalent du gras) si prévu par la police de caractères.</li>
+                <li class="bolder">font-weight: bolder permet d'augmenter la graisse si possible.</li>
+                <li class="lighter">font-weight: lighter permet de diminuer la graisse si possible.</li>
+            </ul>
+            
+            <h3>Le style</h3>
+            <p>La propriété CSS font-style permet de définir le style utilisé pour le texte.</p>
+            <ul>
+                <li class="italic">On peut mettre du texte en gras avec font-style: italic.</li>
+                <li class="normal">On peut supprimer le style existant avec font-style: normal <em>(ici le texte est dans un élément &lt;em&gt;)</em>.</li>
+            </ul>
+            
+            <h2>Mise en forme des espacements</h2>
+            
+            <p>Utilisation des proriétés line-height, letter-spacing, word-spacing et white-space</p>
+            
+            <h3>La hauteur de ligne</h3>
+            <p>La propriété CSS line-height permet de définir la hauteur de ligne du texte (donc indirectement l'espacement entre les lignes).</p>
+            <ul>
+                <li class="one">Une ligne de texte avec la valeur line-height: 1 la valeur n'a pas d'unité.</li>
+                <li class="oneFive">Une ligne de texte avec la valeur line-height: 1.5 la valeur n'a pas d'unité.</li>
+                <li class="four">Une ligne de texte avec la valeur line-height: 4 la valeur n'a pas d'unité.</li>
+            </ul>
+            
+            <h3>L'espacement entre les lettres</h3>
+            <p>La propriété CSS letter-spacing permet de définir l'espacement entre les lettres.</p>
+            <lu>
+                <li class="letterSpacing">Une ligne de texte avec la valeur letter-spacing: 0.5em avec l'unité em (de préférence).</li>
+            </lu>
+            
+            <h3>L'espacement entre les mots</h3>
+            <p>La propriété CSS word-spacing permet de définir l'espacement entre les mots.</p>
+            <lu>
+                <li class="wordSpacing">Une ligne de texte avec la valeur word-spacing: 2em avec l'unité em (de préférence).</li>
+            </lu>
+            
+            <h3>Gestion des espaces (blancs)</h3>
+            <p>La propriété CSS white-space permet de gérer le comportement des espaces.</p>
+            <p class="spaceNormal">Une ligne de texte avec la valeur white-space: normal, le texte retourne à la ligne normalement.</p>
+            <p class="noWrap">Une ligne de texte avec la valeur white-space: nowrap le texte ne retourne pas à la ligne..</p>
+            <p class="spacePre">Une ligne de texte avec la valeur white-space: pre
+			le texte se comporte comme dans l'élément &lt;pre&gt;.</p>
+            
+            <h2>Mise en forme du texte</h2>
+            
+            <p>Utilisation des proriétés text-xxx</p>
+            
+            <h3>L'alignement et la justification du texte</h3>
+            <p>La propriété CSS text-align permet de définir l'alignement du texte.</p>
+            <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, recusandae debitis illo rerum officiis a vel ipsam cumque magni nam architecto temporibus quae tempora placeat ipsum animi vero! Accusantium, eius sint est deleniti non aut cumque recusandae cupiditate obcaecati explicabo illum odit nisi at dolor natus nam possimus veritatis. Magnam.</p>
+            <p class="right">Voluptates, possimus, animi vitae iusto quos nisi aspernatur dolorum quibusdam nihil earum quidem quo eos. Distinctio, quidem, reprehenderit, illum, sequi soluta repudiandae a adipisci obcaecati eius ut dolorem saepe voluptatum vel impedit quibusdam quae molestiae commodi incidunt veniam numquam neque modi maiores rem! Consequuntur, voluptas, aut debitis impedit corporis quibusdam.</p>
+            <p class="center">Ipsum, harum error perspiciatis quibusdam vero. Dignissimos, voluptate, repellat rerum nam nulla doloribus fuga ea possimus quas quasi dolor explicabo eos veritatis ipsum magnam tenetur praesentium cumque quisquam laboriosam voluptatibus magni laborum libero odio. Laudantium, aliquid, provident quam veritatis modi alias eius at error hic amet. Necessitatibus, perspiciatis autem inventore.</p>
+            <p class="justify">Exercitationem, veritatis, voluptatibus saepe iste fugiat rem magni nisi nulla cumque reiciendis beatae possimus aut voluptatum molestiae consequuntur reprehenderit soluta quos. Ex, iure, corporis, alias, vero molestias delectus repudiandae amet eius deserunt nulla voluptates ipsum odio sapiente eveniet aperiam ea sit reprehenderit? Voluptate, numquam repellendus eos autem consectetur velit dolorem.</p>
+            
+            <h2>L'indentation du texte</h2>
+            <p>La propriété CSS text-indent permet de définir l'indentation du texte.</p>
+            <p class="indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque debitis minima doloremque laboriosam. Similique, dolorem, eum quae magni nostrum molestias maxime odit corrupti magnam adipisci alias quidem id quia perspiciatis.</p>
+            
+            <h2>La transformation du texte</h2>
+            <p>La propriété CSS text-transform permet de d'effectuer une transformation de la casse du texte (cette méthode est recommandée).</p>
+            <ul>
+                <li class="none">La valeur text-transform: none annule toute transformation.</li>
+                <li class="capitalize">Avec la valeur text-transform: capitalize, la première lettre de chaque mot sera affichée en capitale.</li>
+                <li class="uppercase">Avec la valeur text-transform: uppercase, tous les caractères seront écrits en majuscule.</li>
+                <li class="lowercase">Avec la valeur text-transform: lowercase, tous les caractères seront écrits en minuscule.</li>
+            </ul>
+            
+            <h2>La décoration du texte</h2>
+            <p>La propriété CSS text-decoration permet de définir une décoration au texte. On peut définir le type, le style et la couleur de la décoration.</p>
+            <ul>
+                <li class="underline">La valeur text-decoration: underline permet de souligner le texte (avec la même couleur).</li>
+                <li class="decoNone">La valeur text-decoration: none permet de supprimer le soulignement le texte <a href="3wa.fr">(ici dans un lien)</a>.</li>
+                <li class="overline">La valeur text-decoration: overline permet de surligner le texte (avec la même couleur).</li>
+                <li class="underlineR">La valeur text-decoration: underline red permet de souligner le texte en rouge.</li>
+                <li class="underlineDO">La valeur text-decoration: underline double orangered permet de souligner le texte en double (et en orange).</li>
+                <li class="underlineDG">La valeur text-decoration: underline green permet de souligner le texte en tirets (et en vert).</li>
+                <li class="underlineWT">La valeur text-decoration: underline wavy teal permet de souligner le texte avec une vague (et en bleu).</li>
+            </ul>
+            
+        
+        </main>
+        
+        <footer class="footer">
+		    <p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png"></a></p>
+		    <p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+	    </footer>
+    </body>
+</html>

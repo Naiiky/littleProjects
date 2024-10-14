@@ -1,0 +1,61 @@
+/* Le code CSS de l'exercices */
+section {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+main {
+  border: 1px dashed orange;
+  padding: 3rem;
+  margin: 3rem;
+}
+/* *****************************************************************
+
+Les positions 
+
+***************************************************************** */
+/* ---------- ---------- position_sticky_top ---------- ---------- */
+
+.position_sticky_top {
+  position: sticky;
+  top: 0;
+  background-color: rgb(183, 112, 249);
+}
+
+/* ---------- ---------- position_static ---------- ---------- */
+
+.position_static {
+  position: static;
+  background-color: rgb(250, 113, 113);
+}
+
+/* ---------- ---------- position_relative_left ---------- ---------- */
+
+.position_relative_left {
+  position: relative;
+  left: -5rem;
+  background-color: rgb(103, 103, 247);
+}
+
+/* ---------- ---------- position relative / absolu  ---------- ---------- */
+
+.position_relative_a {
+  position: relative;
+}
+
+.position_absolu_r {
+  position: absolute;
+  background-color: grey;
+  padding: 10px;
+  top: 0;
+  right: 0;
+}
+
+/* ---------- ---------- position_fixed  ---------- ---------- */
+
+.position_fixed {
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 70%;
+}

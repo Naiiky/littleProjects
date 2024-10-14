@@ -1,0 +1,149 @@
+/* Le code CSS de l'exercices */
+section {
+  background-color: whitesmoke;
+  padding: 40px;
+}
+h2,
+h3 {
+  padding: 30px;
+}
+
+/* *****************************************************************
+
+Degradés
+
+***************************************************************** */
+/* ---------- ---------- degrade lineaire ---------- ---------- */
+
+.degrade_lineaire_mini {
+  background-image: linear-gradient(180deg, #f8c634, #f56634);
+  padding: 60px;
+}
+
+.degrade_lineaire_multi_color {
+  background-image: linear-gradient(180deg, #a0cd33, #f8c634, #f56634);
+  padding: 60px;
+}
+
+.degrade_lineaire_angle {
+  background-image: linear-gradient(90deg, #a0cd33, #f8c634, #f56634);
+  padding: 60px;
+}
+
+.degrade_lineaire_pourcent {
+  background-image: linear-gradient(
+    90deg,
+    #a0cd33 0 30%,
+    #f8c634 30%,
+    #f56634 50%
+  );
+  padding: 60px;
+}
+
+.degrade_lineaire_repeat {
+  background-image: repeating-linear-gradient(
+    to right,
+    #a0cd33,
+    #f8c634,
+    #f56634
+  );
+  background-size: 25%;
+  padding: 60px;
+}
+
+/* ---------- ---------- degrade radial ---------- ---------- */
+
+.degrade_radial {
+  background-image: radial-gradient(#f8c634, #f56634);
+  padding: 60px;
+}
+
+.degrade_radial_cercle {
+  background-image: radial-gradient(circle, #f8c634, #f56634);
+  padding: 60px;
+}
+
+.degrade_radial_inscrit {
+  background-image: radial-gradient(circle closest-side, #f8c634, #f56634 100%);
+  padding: 60px;
+}
+
+.degrade_radial_inscrit_pourcent {
+  background-image: radial-gradient(
+    circle closest-side at 25%,
+    #f8c634,
+    #f56634 100%
+  );
+  padding: 60px;
+}
+
+/* *****************************************************************
+
+Ombre
+
+***************************************************************** */
+
+.ombre {
+  padding: 60px;
+}
+
+/* ---------- ---------- Ombre ---------- ---------- */
+
+.ombre_petite {
+  box-shadow: 0px 0px 2px #000;
+}
+
+.ombre_grande {
+  box-shadow: 0px 5px 30px #000;
+}
+
+.ombre_interne {
+  box-shadow: inset 1px 1px 10px #000;
+}
+
+/* ---------- ---------- Ombre colorée ---------- ---------- */
+
+.ombre_coloree {
+  box-shadow: 8px 5px 5px red;
+}
+
+.ombre_etalee {
+  box-shadow: 0px 0px 5px 10px red;
+}
+
+.ombre_multiple {
+  box-shadow: 0 15px 10px -5px #f56634, 0px 0px 5px 15px rgb(160, 214, 12);
+}
+
+/* *****************************************************************
+
+Ombre sur texte
+
+***************************************************************** */
+.texte {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  background-color: rgb(212, 212, 212);
+  padding: 60px;
+}
+
+/* ---------- ---------- Ombre ---------- ---------- */
+
+.ombre_texte_petite {
+  text-shadow: 1px 1px 2px black;
+}
+
+.ombre_texte_grande {
+  text-shadow: 8px 8px 5px black;
+}
+
+/* ---------- ---------- Ombre coloree ---------- ---------- */
+
+.ombre_texte_coloree {
+  text-shadow: 8px 8px 5px rgb(255, 140, 0);
+}
+
+.ombre_texte_multiple {
+  text-shadow: 8px 8px 5px rgb(255, 140, 0), 4px 4px 5px rgb(28, 182, 7);
+}

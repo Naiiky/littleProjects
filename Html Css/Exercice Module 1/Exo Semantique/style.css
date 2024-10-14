@@ -1,0 +1,33 @@
+.div{
+    color:black;
+    border:solid;
+    border-color:black;
+    border-width:4px;
+    margin: 10px;
+    padding: 10px;
+}
+.headerMain{
+    background-color:#dff7ff;
+    border:solid;
+    border-color:blue;
+    border-width:3px;
+    margin: 10px;
+    padding: 10px;
+}
+.navSection{
+    background-color:#e3e3e3;
+    border:solid;
+    border-color:grey;
+    border-width:2px;
+    margin: 10px;
+    padding: 10px;
+}
+.article{
+    background-color:#fff4e1;
+    border:solid;
+    border-color:#ff642b;
+    border-width:1px;
+    margin: 10px;
+    padding: 10px;
+    
+}

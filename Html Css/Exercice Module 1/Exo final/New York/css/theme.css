@@ -1,0 +1,77 @@
+/* Le code CSS de l'exercice */
+
+/* changement police */
+
+@font-face {
+  font-family: "Courgette";
+  src: url(/instructions/ressources/Courgette-Regular.ttf) format("ttf");
+}
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+/* Mise en forme de la page */
+body {
+  margin: auto;
+  padding: auto;
+  width: 980px;
+  font-size: 18px;
+}
+/* Mise en forme menu deroulant*/
+.menu {
+  font-size: 20px;
+  color: #003884;
+  font-weight: bold;
+  font-family: "Courgette", sans-serif;
+}
+/* centrage titre / p dans la section et dans le body */
+h2,
+h3 {
+  text-align: center;
+  font-family: "Courgette", sans-serif;
+}
+section p {
+  text-align: center;
+  font-family: "Courgette", sans-serif;
+}
+article {
+  margin: auto;
+  padding: 20px;
+}
+
+/* mise en place des photos */
+
+.flagNy {
+  float: right;
+  margin: 10px;
+  padding: auto;
+}
+.statue {
+  float: left;
+  margin: 10px;
+  padding: auto;
+}
+.brooklyn {
+  float: right;
+  margin: 10px;
+  padding: auto;
+}
+.taxi {
+  float: left;
+  margin: 10px;
+  padding: auto;
+}
+
+/* mise en forme section citation */
+
+section {
+  background-color: #d7e1ef;
+}
+
+/* mise en forme picto reseaux */
+
+i {
+  font-size: 30px;
+  color: #003884;
+}

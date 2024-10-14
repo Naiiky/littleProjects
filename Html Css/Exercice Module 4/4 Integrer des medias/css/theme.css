@@ -1,0 +1,25 @@
+/* Le code CSS de l'exercices */
+section {
+  background-color: whitesmoke;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section video {
+  width: 100%;
+}
+section h3 {
+  width: 100%;
+  text-align: center;
+}
+
+section audio {
+  width: 50%;
+}
+/* *****************************************************************
+
+Degradés
+
+***************************************************************** */
+/* ---------- ---------- degrade lineaire ---------- ---------- */

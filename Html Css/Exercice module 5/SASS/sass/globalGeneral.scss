@@ -1,0 +1,124 @@
+$base: #369;
+$white: #fff;
+$gray: #ccc;
+$title-1: #c33;
+$title-2: #a32929;
+$title-3: #7a1f1f;
+
+@mixin color($x) {
+  color: $x;
+}
+
+// juste le display (3 blocs)
+@mixin divParent($a, $b, $c, $d, $e, $f, $g) {
+  display: $a;
+  grid-template-columns: $b($c, $d);
+  grid-template-rows: $e($f, $g);
+  gap: 1em;
+  margin: 2em 1em;
+}
+
+// le contenu (générique)
+@mixin secEnfant($h, $i, $j, $k) {
+  background-color: $white;
+  color: $base;
+  padding: 1em;
+  border: 1px solid $gray;
+  box-shadow: 0 0 10px $gray;
+  grid-column: $h / $i;
+  grid-row: $j / $k;
+}
+
+main {
+  h2 {
+    @include color($title-1);
+  }
+  article {
+    h3 {
+      @include color($title-2);
+    }
+    .sec-1 {
+      border: 1px solid $title-3;
+      padding: 1em;
+      h4 {
+        @include color($title-3);
+      }
+      p {
+        @include color($base);
+      }
+    }
+  }
+
+  #parent1 {
+    @include divParent(grid, repeat, 3, 1fr, repeat, 1, 100%);
+    #enfant {
+      @include secEnfant(1, 2, 1, 1);
+    }
+    #enfant2 {
+      @include secEnfant(2, 3, 1, 1);
+    }
+    #enfant3 {
+      @include secEnfant(1, 2, 2, 3);
+    }
+    #enfant4 {
+      @include secEnfant(2, 3, 2, 3);
+    }
+  }
+  #parent2 {
+    @include divParent(grid, repeat, 4, 1fr, repeat, 2, 100%);
+    #enfant2-1 {
+      @include secEnfant(1, 2, 1, 1);
+    }
+    #enfant2-2 {
+      @include secEnfant(2, 3, 1, 1);
+    }
+    #enfant2-3 {
+      @include secEnfant(3, 4, 1, 1);
+    }
+    #enfant2-4 {
+      @include secEnfant(1, 2, 2, 3);
+    }
+    #enfant2-5 {
+      @include secEnfant(2, 3, 2, 3);
+    }
+    #enfant2-6 {
+      @include secEnfant(3, 4, 2, 3);
+    }
+  }
+  #parent3 {
+    @include divParent(grid, repeat, 2, 1fr, repeat, 2, 100%);
+    #enfant3-1 {
+      @include secEnfant(1, 2, 1, 1);
+    }
+    #enfant3-2 {
+      @include secEnfant(2, 3, 1, 1);
+    }
+    #enfant3-3 {
+      @include secEnfant(3, 4, 1, 1);
+    }
+    #enfant3-4 {
+      @include secEnfant(4, 5, 1, 1);
+    }
+    #enfant3-5 {
+      @include secEnfant(5, 6, 1, 1);
+    }
+  }
+  #parent4 {
+    @include divParent(grid, repeat, 2, 1fr, repeat, 2, 100%);
+    #enfant4-1 {
+      @include secEnfant(1, 2, 1, 1);
+    }
+    #enfant4-2 {
+      @include secEnfant(2, 3, 1, 1);
+    }
+    #enfant4-3 {
+      @include secEnfant(3, 4, 1, 1);
+    }
+    #enfant4-4 {
+      @include secEnfant(4, 5, 1, 1);
+    }
+    #enfant4-5 {
+      @include secEnfant(5, 6, 1, 1);
+    }
+  }
+}
