@@ -1,0 +1,52 @@
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculatrice {
+  width: 200px; /* Largeur de la calculatrice */
+  height: 400px; /* Hauteur de la calculatrice */
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  display: flex;
+  flex-direction: column;
+}
+
+#ecran {
+  width: calc(100% - 20px); /* Ajustement pour le padding */
+  height: 50px; /* Hauteur de l'écran */
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+}
+
+.boutons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+  gap: 5px;
+}
+
+.boutons button {
+  width: 100%; /* Utiliser toute la largeur disponible */
+  height: 50px; /* Hauteur uniforme pour tous les boutons */
+  font-size: 16px;
+  border: none;
+  background-color: #555;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boutons button:hover {
+  background-color: #777;
+}
